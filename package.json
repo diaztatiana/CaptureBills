@@ -4,7 +4,8 @@
   "description": "L’application permet un gain de temps appréciable à tous les niveaux : ",
   "main": "depuis la création de la note de frais jusqu’à son remboursement, ",
   "scripts": {
-    "test": "cross-env NODE_ENV=test mocha --require @babel/register --recursive test/unit"
+    "test": "cross-env NODE_ENV=test mocha --require @babel/register --recursive test/unit",
+    "coverage": "cross-env NODE_ENV=test nyc mocha --recursive test/unit"
   },
   "repository": {
     "type": "git",
