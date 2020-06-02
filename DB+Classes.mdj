@@ -4035,6 +4035,21 @@
 												},
 												{
 													"_type": "ERDColumnView",
+													"_id": "AAAAAAFyc98p/xQfPSE=",
+													"_parent": {
+														"$ref": "AAAAAAFyc8g+zBINpys="
+													},
+													"model": {
+														"$ref": "AAAAAAFyc98pshQcPsU="
+													},
+													"font": "Arial;13;0",
+													"left": 61,
+													"top": 579,
+													"width": 186.20068359375,
+													"height": 13
+												},
+												{
+													"_type": "ERDColumnView",
 													"_id": "AAAAAAFyc9seQxNIj1k=",
 													"_parent": {
 														"$ref": "AAAAAAFyc8g+zBINpys="
@@ -4044,7 +4059,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 61,
-													"top": 579,
+													"top": 594,
 													"width": 186.20068359375,
 													"height": 13
 												},
@@ -4059,7 +4074,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 61,
-													"top": 594,
+													"top": 609,
 													"width": 186.20068359375,
 													"height": 13
 												},
@@ -4071,21 +4086,6 @@
 													},
 													"model": {
 														"$ref": "AAAAAAFyc9su5RNRdtE="
-													},
-													"font": "Arial;13;0",
-													"left": 61,
-													"top": 609,
-													"width": 186.20068359375,
-													"height": 13
-												},
-												{
-													"_type": "ERDColumnView",
-													"_id": "AAAAAAFyc98p/xQfPSE=",
-													"_parent": {
-														"$ref": "AAAAAAFyc8g+zBINpys="
-													},
-													"model": {
-														"$ref": "AAAAAAFyc98pshQcPsU="
 													},
 													"font": "Arial;13;0",
 													"left": 61,
@@ -4602,7 +4602,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 384,
-											"top": 397,
+											"top": 381,
 											"width": 193,
 											"height": 13,
 											"text": "notification"
@@ -4628,7 +4628,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 389,
-													"top": 420,
+													"top": 404,
 													"width": 183,
 													"height": 13
 												},
@@ -4643,7 +4643,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 389,
-													"top": 435,
+													"top": 419,
 													"width": 183,
 													"height": 13
 												},
@@ -4658,7 +4658,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 389,
-													"top": 450,
+													"top": 434,
 													"width": 183,
 													"height": 13
 												},
@@ -4673,7 +4673,7 @@
 													},
 													"font": "Arial;13;0",
 													"left": 389,
-													"top": 465,
+													"top": 449,
 													"width": 183,
 													"height": 13
 												},
@@ -4688,21 +4688,21 @@
 													},
 													"font": "Arial;13;0",
 													"left": 389,
-													"top": 480,
+													"top": 464,
 													"width": 183,
 													"height": 13
 												}
 											],
 											"font": "Arial;13;0",
 											"left": 384,
-											"top": 415,
+											"top": 399,
 											"width": 193,
 											"height": 83
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 384,
-									"top": 392,
+									"top": 376,
 									"width": 193,
 									"height": 106,
 									"nameLabel": {
@@ -4893,7 +4893,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 199,
-											"top": 433,
+											"top": 425,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 15,
@@ -4910,7 +4910,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 358,
-											"top": 448,
+											"top": 440,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 30,
@@ -4944,7 +4944,7 @@
 										"$ref": "AAAAAAFyc8/2dxMMgk4="
 									},
 									"lineStyle": 2,
-									"points": "384:440;184:440;184:536",
+									"points": "384:432;184:432;184:536",
 									"nameLabel": {
 										"$ref": "AAAAAAFyc+sKCRYJS50="
 									},
@@ -5055,7 +5055,7 @@
 											"font": "Arial;13;1",
 											"left": 64,
 											"top": 741,
-											"width": 185,
+											"width": 200.52978515625,
 											"height": 13,
 											"text": "exp_type"
 										},
@@ -5081,7 +5081,7 @@
 													"font": "Arial;13;0",
 													"left": 69,
 													"top": 764,
-													"width": 175,
+													"width": 190.52978515625,
 													"height": 13
 												},
 												{
@@ -5096,21 +5096,21 @@
 													"font": "Arial;13;0",
 													"left": 69,
 													"top": 779,
-													"width": 175,
+													"width": 190.52978515625,
 													"height": 13
 												}
 											],
 											"font": "Arial;13;0",
 											"left": 64,
 											"top": 759,
-											"width": 185,
+											"width": 200.52978515625,
 											"height": 38
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 64,
 									"top": 736,
-									"width": 185,
+									"width": 200.52978515625,
 									"height": 61,
 									"nameLabel": {
 										"$ref": "AAAAAAFydDZ6dnKI9CY="
@@ -5315,7 +5315,7 @@
 									},
 									"name": "id_user",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"primaryKey": true
 								},
 								{
@@ -5432,7 +5432,7 @@
 									},
 									"name": "id_expence",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"primaryKey": true
 								},
 								{
@@ -5442,8 +5442,7 @@
 										"$ref": "AAAAAAFyc8g+zBIdxFU="
 									},
 									"name": "taxe_base",
-									"type": "float",
-									"length": 0
+									"type": "float"
 								},
 								{
 									"_type": "ERDColumn",
@@ -5483,8 +5482,19 @@
 									},
 									"name": "id_bill",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"primaryKey": true
+								},
+								{
+									"_type": "ERDColumn",
+									"_id": "AAAAAAFyc98pshQcPsU=",
+									"_parent": {
+										"$ref": "AAAAAAFyc8g+zBIfq3o="
+									},
+									"name": "id_user",
+									"type": "int",
+									"length": "11",
+									"foreignKey": true
 								},
 								{
 									"_type": "ERDColumn",
@@ -5494,7 +5504,7 @@
 									},
 									"name": "id_exp_type",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"foreignKey": true
 								},
 								{
@@ -5505,7 +5515,7 @@
 									},
 									"name": "id_expence",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"foreignKey": true
 								},
 								{
@@ -5517,16 +5527,6 @@
 									"name": "date",
 									"type": "timestamp",
 									"length": 0
-								},
-								{
-									"_type": "ERDColumn",
-									"_id": "AAAAAAFyc98pshQcPsU=",
-									"_parent": {
-										"$ref": "AAAAAAFyc8g+zBIfq3o="
-									},
-									"name": "id_user",
-									"length": 0,
-									"foreignKey": true
 								}
 							]
 						},
@@ -5546,7 +5546,7 @@
 									},
 									"name": "internal_id",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"foreignKey": true
 								},
 								{
@@ -5557,7 +5557,7 @@
 									},
 									"name": "id_role",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"foreignKey": true
 								}
 							]
@@ -5608,7 +5608,7 @@
 									},
 									"name": "id_role",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"primaryKey": true
 								},
 								{
@@ -5639,7 +5639,7 @@
 									},
 									"name": "id_msg",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"primaryKey": true
 								},
 								{
@@ -5680,7 +5680,7 @@
 									},
 									"name": "from_user",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"foreignKey": true
 								},
 								{
@@ -5691,7 +5691,7 @@
 									},
 									"name": "to_user",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"foreignKey": true
 								}
 							]
@@ -5742,7 +5742,7 @@
 									},
 									"name": "id_notif",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"primaryKey": true
 								},
 								{
@@ -5783,7 +5783,7 @@
 									},
 									"name": "id_bill",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"foreignKey": true
 								}
 							]
@@ -5834,7 +5834,7 @@
 									},
 									"name": "id_exp_type",
 									"type": "int",
-									"length": 0,
+									"length": "11",
 									"primaryKey": true
 								},
 								{
@@ -5844,7 +5844,8 @@
 										"$ref": "AAAAAAFydDZ6dHKFUns="
 									},
 									"name": "type",
-									"length": 0
+									"type": "varchar",
+									"length": "255"
 								}
 							]
 						}
