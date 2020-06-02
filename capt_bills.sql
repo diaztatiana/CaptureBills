@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `bill`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `bill` (
-  `id_bill` int(11) NOT NULL,
+  `id_bill` int(11) NOT NULL AUTO_INCREMENT,
   `id_user` int(11) NOT NULL,
   `id_exp_type` int(11) NOT NULL,
   `id_expense` int(11) NOT NULL,
@@ -55,7 +55,7 @@ DROP TABLE IF EXISTS `exp_type`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `exp_type` (
-  `id_exp_type` int(11) NOT NULL,
+  `id_exp_type` int(11) NOT NULL AUTO_INCREMENT,
   `type` varchar(255) NOT NULL,
   PRIMARY KEY (`id_exp_type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -78,7 +78,7 @@ DROP TABLE IF EXISTS `expense`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `expense` (
-  `id_expense` int(11) NOT NULL,
+  `id_expense` int(11) NOT NULL AUTO_INCREMENT,
   `taxBase` float NOT NULL,
   `taxRate` float NOT NULL,
   `vat` float NOT NULL,
@@ -104,7 +104,7 @@ DROP TABLE IF EXISTS `message`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `message` (
-  `id_msg` int(11) NOT NULL,
+  `id_msg` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   `content` text NOT NULL,
   `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
@@ -135,7 +135,7 @@ DROP TABLE IF EXISTS `notification`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `notification` (
-  `id_notif` int(11) NOT NULL,
+  `id_notif` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT NULL,
   `content` text NOT NULL,
   `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
@@ -163,7 +163,7 @@ DROP TABLE IF EXISTS `role`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `role` (
-  `id_role` int(11) NOT NULL,
+  `id_role` int(11) NOT NULL AUTO_INCREMENT,
   `role` varchar(255) NOT NULL,
   PRIMARY KEY (`id_role`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -186,7 +186,7 @@ DROP TABLE IF EXISTS `user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `user` (
-  `id_user` int(11) NOT NULL,
+  `id_user` int(11) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(255) NOT NULL,
   `last_name` varchar(255) NOT NULL,
   `role_id` int(255) NOT NULL,
@@ -239,4 +239,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-02 14:10:35
+-- Dump completed on 2020-06-02 15:01:06
