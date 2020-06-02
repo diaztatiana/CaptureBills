@@ -5350,7 +5350,7 @@
 										"$ref": "AAAAAAFyc8g+zBIfq3o="
 									},
 									"name": "date",
-									"type": "datetime",
+									"type": "timestamp",
 									"length": 0
 								},
 								{
@@ -5504,7 +5504,7 @@
 										"$ref": "AAAAAAFyc8g+zBIllYQ="
 									},
 									"name": "date",
-									"type": "datetime",
+									"type": "timestamp",
 									"length": 0
 								},
 								{
@@ -5587,7 +5587,8 @@
 										"$ref": "AAAAAAFyc8/2dhMKGIg="
 									},
 									"name": "title",
-									"length": 0
+									"type": "varchar",
+									"length": "255"
 								},
 								{
 									"_type": "ERDColumn",
@@ -5596,6 +5597,7 @@
 										"$ref": "AAAAAAFyc8/2dhMKGIg="
 									},
 									"name": "content",
+									"type": "text",
 									"length": 0
 								},
 								{
@@ -5605,7 +5607,7 @@
 										"$ref": "AAAAAAFyc8/2dhMKGIg="
 									},
 									"name": "date",
-									"type": "datetime",
+									"type": "timestamp",
 									"length": 0
 								},
 								{
