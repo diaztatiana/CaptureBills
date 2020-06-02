@@ -5430,7 +5430,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFyc8g+zBIdxFU="
 									},
-									"name": "id_expence",
+									"name": "id_expense",
 									"type": "int",
 									"length": "11",
 									"primaryKey": true
@@ -5513,7 +5513,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFyc8g+zBIfq3o="
 									},
-									"name": "id_expence",
+									"name": "id_expense",
 									"type": "int",
 									"length": "11",
 									"foreignKey": true
