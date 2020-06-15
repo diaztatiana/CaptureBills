@@ -2,13 +2,16 @@ package com.captbills.capture.dto;
 
 import java.sql.Date;
 
-public class Message {
+import com.captbills.capture.interfaces.MessageInterface;
+
+public class Message implements MessageInterface{
 
 	private String title;
 	private String content;
 	private Date date;
 	private User fromUser;
 	private User toUser;
+	
 	public String getTitle() {
 		return title;
 	}

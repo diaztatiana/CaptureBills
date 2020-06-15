@@ -1,6 +1,8 @@
 package com.captbills.capture.dto;
 
-public class NotificationType {
+import com.captbills.capture.interfaces.NotificationTypeInterface;
+
+public class NotificationType implements NotificationTypeInterface{
 
 	private String type;
 

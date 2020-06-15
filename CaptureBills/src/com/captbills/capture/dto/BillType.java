@@ -1,6 +1,8 @@
 package com.captbills.capture.dto;
 
-public class BillType {
+import com.captbills.capture.interfaces.BillTypeInterface;
+
+public class BillType implements BillTypeInterface{
 
 	private String type;
 
