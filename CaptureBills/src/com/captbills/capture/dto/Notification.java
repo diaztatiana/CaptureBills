@@ -2,7 +2,9 @@ package com.captbills.capture.dto;
 
 import java.sql.Date;
 
-public class Notification {
+import com.captbills.capture.interfaces.NotificationInterface;
+
+public class Notification implements NotificationInterface{
 
 	private String title;
 	private String content;

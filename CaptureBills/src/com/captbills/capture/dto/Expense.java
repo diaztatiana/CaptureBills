@@ -1,6 +1,8 @@
 package com.captbills.capture.dto;
 
-public class Expense {
+import com.captbills.capture.interfaces.ExpenseInterface;
+
+public class Expense implements ExpenseInterface{
 
 	private float taxeBase;
 	private float taxe;

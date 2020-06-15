@@ -2,7 +2,9 @@ package com.captbills.capture.dto;
 
 import java.sql.Date;
 
-public class Bill {
+import com.captbills.capture.interfaces.BillInterface;
+
+public class Bill implements BillInterface{
 
 	private User user;
 	private Expense expense;
