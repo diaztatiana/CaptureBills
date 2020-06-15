@@ -12,7 +12,6 @@ public class Role implements RoleInterface{
 	public String getRole() {
 		return role;
 	}
-
 	public void setRole(String role) {
 		this.role = role;
 	}
@@ -24,5 +23,15 @@ public class Role implements RoleInterface{
 	public void setUsers(ArrayList<User> users) {
 		this.users = users;
 	}
+	
+	public void addUser(User user) {
+		this.users.add(user);
+	}
+	
+	@Override
+	public String toString() {
+		return "Role [role=" + role +  "]";
+	}
+
 	
 }

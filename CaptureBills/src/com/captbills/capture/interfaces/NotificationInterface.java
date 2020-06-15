@@ -1,6 +1,6 @@
 package com.captbills.capture.interfaces;
 
-import java.sql.Date;
+import java.util.Date;
 
 import com.captbills.capture.dto.Bill;
 import com.captbills.capture.dto.NotificationType;
@@ -28,8 +28,5 @@ public interface NotificationInterface {
 
 	public NotificationType getType();
 	public void setType(NotificationType type);
-
-	public boolean isSeen();
-	public void setSeen(boolean seen);
 	
 }

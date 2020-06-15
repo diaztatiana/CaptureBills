@@ -1,6 +1,6 @@
 package com.captbills.capture.dto;
 
-import java.sql.Date;
+import java.util.Date;
 
 import com.captbills.capture.interfaces.BillInterface;
 
@@ -14,7 +14,6 @@ public class Bill implements BillInterface{
 	public User getUser() {
 		return user;
 	}
-
 	public void setUser(User user) {
 		this.user = user;
 	}
@@ -22,7 +21,6 @@ public class Bill implements BillInterface{
 	public Expense getExpense() {
 		return expense;
 	}
-
 	public void setExpense(Expense expense) {
 		this.expense = expense;
 	}
@@ -30,7 +28,6 @@ public class Bill implements BillInterface{
 	public BillType getBillType() {
 		return billType;
 	}
-
 	public void setBillType(BillType billType) {
 		this.billType = billType;
 	}
@@ -38,8 +35,15 @@ public class Bill implements BillInterface{
 	public Date getDate() {
 		return date;
 	}
-
 	public void setDate(Date date) {
 		this.date = date;
 	}
+
+	@Override
+	public String toString() {
+		return "Bill [user=" + user + ", expense=" + expense + ", billType=" + billType + ", date=" + date + "]";
+	}
+	
+	
+	
 }

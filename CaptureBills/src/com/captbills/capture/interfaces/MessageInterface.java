@@ -1,6 +1,6 @@
 package com.captbills.capture.interfaces;
 
-import java.sql.Date;
+import java.util.Date;
 
 import com.captbills.capture.dto.User;
 
@@ -21,4 +21,6 @@ public interface MessageInterface {
 	public User getToUser();
 	public void setToUser(User toUser);
 	
+	public boolean isSeen();
+	public void setSeen(boolean seen);
 }

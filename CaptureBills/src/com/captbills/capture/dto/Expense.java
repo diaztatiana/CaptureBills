@@ -11,7 +11,6 @@ public class Expense implements ExpenseInterface{
 	public float getTaxeBase() {
 		return taxeBase;
 	}
-
 	public void setTaxeBase(float taxeBase) {
 		this.taxeBase = taxeBase;
 	}
@@ -19,7 +18,6 @@ public class Expense implements ExpenseInterface{
 	public float getTaxe() {
 		return taxe;
 	}
-
 	public void setTaxe(float taxe) {
 		this.taxe = taxe;
 	}
@@ -27,9 +25,14 @@ public class Expense implements ExpenseInterface{
 	public float getTotalPrice() {
 		return totalPrice;
 	}
-
 	public void setTotalPrice(float totalPrice) {
 		this.totalPrice = totalPrice;
 	}
+	
+	@Override
+	public String toString() {
+		return "Expense [taxeBase=" + taxeBase + ", taxe=" + taxe + ", totalPrice=" + totalPrice + "]";
+	}
 
+	
 }

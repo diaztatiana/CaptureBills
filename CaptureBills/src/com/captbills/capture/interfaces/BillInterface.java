@@ -1,6 +1,6 @@
 package com.captbills.capture.interfaces;
 
-import java.sql.Date;
+import java.util.Date;
 
 import com.captbills.capture.dto.BillType;
 import com.captbills.capture.dto.Expense;
