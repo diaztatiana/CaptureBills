@@ -5326,7 +5326,7 @@
 									},
 									"name": "first_name",
 									"type": "varchar",
-									"length": "255"
+									"length": "25"
 								},
 								{
 									"_type": "ERDColumn",
@@ -5336,7 +5336,7 @@
 									},
 									"name": "last_name",
 									"type": "varchar",
-									"length": "255"
+									"length": "25"
 								},
 								{
 									"_type": "ERDColumn",
@@ -5346,7 +5346,7 @@
 									},
 									"name": "mail",
 									"type": "varchar",
-									"length": "255"
+									"length": "50"
 								},
 								{
 									"_type": "ERDColumn",
@@ -5845,7 +5845,7 @@
 									},
 									"name": "type",
 									"type": "varchar",
-									"length": "255"
+									"length": "25"
 								}
 							]
 						}

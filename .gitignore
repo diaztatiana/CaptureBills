@@ -1,1 +1,11 @@
 node_modules
+/.metadata/
+/.nyc_output/
+/coverage/
+src
+test
+.babelrc
+.nycrc
+.travis
+package
+package-lock
